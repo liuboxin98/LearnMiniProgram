@@ -22,7 +22,7 @@
       },
       {
         "pagePath": "pages/goods/goods",
-        "text": "首页",
+        "text": "商品",
         "iconPath": "assets/img/plant-08.png",
         "selectedIconPath": "assets/img/plant-02.png"
       }

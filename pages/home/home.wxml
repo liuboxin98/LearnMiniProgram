@@ -1,6 +1,29 @@
-<text class="hello">{{name}}</text>
-<view>{{counter}}</view>
-<button size="mini" bindtap="btn_add">+</button>
-<button size="mini" bindtap="sub_add">-</button>
+<view class="content">
+	<!-- <view class="section">
+		<view class="section__title">flex-direction: row</view>
+		<view class="flex-wrp" style="flex-direction:row;">
+			<view class="flex-item bc_green">1</view>
+			<view class="flex-item bc_red">2</view>
+			<view class="flex-item bc_blue">3</view>
+		</view>
+	</view> -->
+	<view class="section">
+		<view class="flex-wrp" style="height: 300px;flex-direction:column;">
+			<view class="flex-item">
+				<text class="hello">{{name}}</text></view>
+			<view class="flex-item">
+				<view>点击数：{{counter}}</view>
+				<view class="btn_postion">
+					<button size="mini" bindtap="btn_add">+</button>
+					<button size="mini" bindtap="sub_add">-</button>
+				</view>
+			</view>
+			<view class="flex-item">
+				<view wx:for="{{students}}">{{item.id}}--{{item.age}}--{{item.name}}</view>
+			</view>
+		</view>
+	</view>
 
-<view wx:for="{{students}}">{{item.id}}--{{item.age}}--{{item.name}}</view>
+
+
+</view>

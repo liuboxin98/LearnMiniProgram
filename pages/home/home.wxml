@@ -1,4 +1,6 @@
-<text class="hello">hello world</text>
-<br />
-<button size="mini">按钮</button>
-<view>知识点 1</view>
+<text class="hello">{{name}}</text>
+<view>{{counter}}</view>
+<button size="mini" bindtap="btn_add">+</button>
+<button size="mini" bindtap="sub_add">-</button>
+
+<view wx:for="{{students}}">{{item.id}}--{{item.age}}--{{item.name}}</view>

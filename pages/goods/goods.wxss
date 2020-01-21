@@ -1,1 +1,7 @@
 /* pages/goods/goods.wxss */
+
+.AvatarUrl {
+  display: block;
+  width: 50rpx;
+  height: 50rpx;
+}

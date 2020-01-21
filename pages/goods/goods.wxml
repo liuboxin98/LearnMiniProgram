@@ -1,2 +1,11 @@
 <!--pages/goods/goods.wxml-->
 <text>商品页面</text>
+<view>
+	{{userinfo.nickName}}
+</view>
+<view class="avatarUrl">
+	<image src="{{userinfo.avatarUrl}}" mode='widthFix'></image>
+</view>
+<view>
+	{{userinfo.language}}
+</view>

@@ -12,6 +12,13 @@
 			<view class="flex-item">
 				<text class="hello">{{name}}</text></view>
 			<view class="flex-item">
+				<view>
+					<open-data type="userNickName"></open-data>
+				</view>
+				<view>
+					<open-data type="userAvatarUrl"></open-data>
+				</view>
+		
 				<view>点击数：{{counter}}</view>
 				<view class="btn_postion">
 					<button size="mini" bindtap="btn_add">+</button>

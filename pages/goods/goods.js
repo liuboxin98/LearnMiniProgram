@@ -1,18 +1,27 @@
 // pages/goods/goods.js
-Page({
+var app = getApp();
+console.log(app)
 
+Page({
   /**
    * 页面的初始数据
    */
   data: {
-
+    userinfo: null
   },
-
+  
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    wx.getUserInfo({
+      success: (res) => {
+        this.setData({
+          userinfo: res.userInfo
+        })
+        console.log(res)
+      },
+    })
   },
 
   /**

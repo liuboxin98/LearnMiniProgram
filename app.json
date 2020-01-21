@@ -9,7 +9,7 @@
     "navigationBarTitleText": "小程序",
     "backgroundColor": "orange",
     "backgroundTextStyle": "light",
-    "enablePullDownRefresh": true
+    "enablePullDownRefresh": false
   },
   "tabBar": {
     "selectedColor": "#ff5777",
@@ -27,5 +27,6 @@
         "selectedIconPath": "assets/img/plant-02.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

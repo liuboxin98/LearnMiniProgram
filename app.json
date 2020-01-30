@@ -1,7 +1,9 @@
 {
   "pages": [
+    "pages/scroll/scroll",
     "pages/home/home",
-    "pages/goods/goods"
+    "pages/goods/goods",
+    "pages/image/images"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff5777",
@@ -21,7 +23,7 @@
         "selectedIconPath": "assets/img/plant-20.png"
       },
       {
-        "pagePath": "pages/goods/goods",
+        "pagePath": "pages/image/images",
         "text": "商品",
         "iconPath": "assets/img/plant-08.png",
         "selectedIconPath": "assets/img/plant-02.png"

@@ -1,0 +1,7 @@
+<!--pages/image/images.wxml-->
+<text>pages/image/images.wxml</text>
+<!--lazy-load-->
+<image src="../../assets/img/plant-01.png" lazy-load wx:for="{{5}}" bindload="handleImgLoad"></image>
+
+<!--分享-->
+<image src="../../assets/img/plant-01.png" show-menu-by-longpress></image>

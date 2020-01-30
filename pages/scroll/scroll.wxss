@@ -1,0 +1,23 @@
+/* pages/scroll/scroll.wxss */
+
+.scroll{
+  background-color: purple;
+  white-space: nowrap;
+}
+.item{
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  display: inline-block;
+}
+
+.scroll2{
+  background-color: orange;
+  height: 200px;
+}
+.item2{
+  margin: 10px;
+  height: 80px;
+  background-color: burlywood;
+}

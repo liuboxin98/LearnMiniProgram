@@ -1,7 +1,10 @@
 {
   "pages": [
-    "pages/scroll/scroll",
+    "pages/component/component",
     "pages/home/home",
+    "pages/fangfachuanzhi/cz",
+    "pages/wxs/wxs",
+    "pages/scroll/scroll",
     "pages/goods/goods",
     "pages/image/images"
   ],

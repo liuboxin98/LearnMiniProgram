@@ -1,0 +1,6 @@
+/* components/my-com/com.wxss */
+
+.title{
+  color: purple;
+  font-size: 40rpx;
+}

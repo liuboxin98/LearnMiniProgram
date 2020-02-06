@@ -1,0 +1,10 @@
+<!--pages/fangfachuanzhi/cz.wxml-->
+<text>pages/fangfachuanzhi/cz.wxml</text>
+
+<view style="display:flex">
+	<block wx:for="{{mydata}}" wx:key="{{index}}" >
+		<view bindtap="itemclick" data-item="{{item}}" data-index="{{index}}" class="items">
+			{{item}}
+		</view>
+	</block>
+</view>

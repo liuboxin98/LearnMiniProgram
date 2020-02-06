@@ -1,0 +1,3 @@
+<!--components/my-com/com.wxml-->
+
+<view class="title">这是组建页面的title</view>

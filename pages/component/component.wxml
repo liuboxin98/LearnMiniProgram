@@ -1,0 +1,16 @@
+<!--pages/component/component.wxml-->
+
+<!-- 组件的使用 -->
+<view class="title">这是home页面的title</view>
+<my-com></my-com>
+
+<!-- 组件的传值 -->
+<my-prop title="蓝色" colortitle="blue" />
+<my-prop title="红色" colortitle="red" />
+<my-prop title="绿色" colortitle="green" />
+<my-prop colortitle="color:red" />
+
+<!-- 组件事件的传递 -->
+<view>当前数量：{{counter}}</view>
+<my-event bind:increment="Increment" />
+<view>姓名：{{list.name}}；年龄：{{list.age}}；性别：{{list.gender}}</view>

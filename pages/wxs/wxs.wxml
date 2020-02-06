@@ -1,0 +1,6 @@
+<!--pages/wxs/wxs.wxml-->
+<text>pages/wxs/wxs.wxml</text>
+
+<wxs src="../../wxs/format.wxs" module="format"></wxs>
+
+<view>wxs的使用： {{format.priceFormat(price,3)}}</view>

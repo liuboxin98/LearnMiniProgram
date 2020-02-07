@@ -1,0 +1,11 @@
+<!--components/m-tab-control/m-tab-control.wxml-->
+
+<view class="tab_content">
+	<block wx:for="{{title}}" wx:key="index">
+		<view class="tab_item {{currenetIndex == index ? 'active':''}}" bind:tap="itemClick" data-index="{{index}}">
+			<text>
+			{{item}}
+			</text>
+		</view>
+	</block>
+</view>

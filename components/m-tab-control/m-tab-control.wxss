@@ -1,0 +1,21 @@
+/* components/m-tab-control/m-tab-control.wxss */
+.tab_content {
+  display: flex;
+  /* background: yellowgreen;
+   line-height: 60px;
+  height: 60px; */
+}
+
+.tab_item {
+  flex: 1;
+  text-align: center;
+}
+
+.active {
+  color: red
+}
+
+.active text {
+  margin: 20rpx;
+  border-bottom: 6rpx solid red;
+}

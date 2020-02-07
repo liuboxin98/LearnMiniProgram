@@ -1,6 +1,7 @@
 // components/my-com/com.js
 Component({
   options: {
+    //样式共享
     styleIsolation: 'shared'
   },
   /**

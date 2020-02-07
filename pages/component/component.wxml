@@ -4,13 +4,32 @@
 <view class="title">这是home页面的title</view>
 <my-com></my-com>
 
+<view>-----------------------------------------------------------</view>
 <!-- 组件的传值 -->
 <my-prop title="蓝色" colortitle="blue" />
 <my-prop title="红色" colortitle="red" />
 <my-prop title="绿色" colortitle="green" />
 <my-prop colortitle="color:red" />
 
+<view>-----------------------------------------------------------</view>
 <!-- 组件事件的传递 -->
 <view>当前数量：{{counter}}</view>
 <my-event bind:increment="Increment" />
 <view>姓名：{{list.name}}；年龄：{{list.age}}；性别：{{list.gender}}</view>
+
+<view>-----------------------------------------------------------</view>
+<!-- 外部传值给内部 -->
+<m-tab-control title="{{['衣服','裤子','鞋子']}}" bind:itemClick="itemClick" />
+
+<view>-----------------------------------------------------------</view>
+<!-- 外部修改组件内部的值 -->
+<my-sel id="btn_id" />
+<button bindtap="btn_click" size="mini">外部的按钮 +20</button>
+
+<view>-----------------------------------------------------------</view>
+<!-- 插槽的使用 多插槽使用时必须要在option对象中添加 multipleSlots:true -->
+<my-slot>
+	<button size="mini" slot="slot2">slot2</button>
+	<button size="mini" slot="slot1">slot1</button>
+	<slider value="20" slot="slot3"></slider>
+</my-slot>

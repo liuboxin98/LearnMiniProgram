@@ -1,0 +1,5 @@
+<!--components/my-sel/my-sel.wxml-->
+<view style="margin-top:40rpx">
+	<view>修改组件中的Data里面的值：{{counter}}</view>
+	<button bindtap="btn_click" size="mini">组件内部的按钮 -20</button>
+</view>

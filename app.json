@@ -6,7 +6,8 @@
     "pages/wxs/wxs",
     "pages/scroll/scroll",
     "pages/goods/goods",
-    "pages/image/images"
+    "pages/image/images",
+    "components/my-sel/my-sel"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff5777",
